@@ -1,4 +1,4 @@
 const Footer = (): JSX.Element => {
-  return <div>Copyright 2021 Ninja list</div>;
+  return <footer>Copyright 2021 Ninja list</footer>;
 };
 export default Footer;

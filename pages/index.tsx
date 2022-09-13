@@ -8,22 +8,22 @@ import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <h1>home page</h1>
-      <p>
+    <div>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni rem sed
         velit earum reprehenderit saepe perferendis ullam provident.
         Necessitatibus dicta sunt fugiat accusamus sequi doloremque, saepe
         quibusdam neque iusto optio.
       </p>
-      <p>
+      <p className={styles.text}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni rem sed
         velit earum reprehenderit saepe perferendis ullam provident.
         Necessitatibus dicta sunt fugiat accusamus sequi doloremque, saepe
         quibusdam neque iusto optio.
       </p>
       <Link href="/ninjas">
-        <a>See Ninja Listing</a>
+        <a className={styles.btn}>See Ninja Listing</a>
       </Link>
     </div>
   );
